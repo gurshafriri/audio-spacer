@@ -1,10 +1,12 @@
+<!-- repository and further documentations available on https://github.com/gurshafriri/audio-spacer-->
+
 # Audio-Spacer
 
 A real-time spatial audio performance instrument for Max/MSP that records, slices, and spatially disperses audio with dynamic pitch shifting and rhythmic control.
 
 ## Overview
 
-Audio-Spacer transforms recorded audio into a spatially-distributed, rhythm-synchronized performance instrument. Record any sound, slice it automatically or manually, then play it back with binaural spatialization, pitch shifting, and tempo-locked sequencing.
+Audio-Spacer transforms recorded audio into a spatially-distributed, rhythm-synchronized performance instrument. Record any sound, slice it automatically or manually, then play it back with configurable spatial output, pitch shifting, and tempo-locked sequencing.
 
 ## Features
 
@@ -37,7 +39,8 @@ Audio-Spacer transforms recorded audio into a spatially-distributed, rhythm-sync
 3. **Set playback pace** - Set BPM (default: 60) and note division (1/4, 1/8, etc.)
 4. **Play slices** - Toggle "On/Off" to start playback
 5. **Adjust** - Enable pitch shifting, adjust spatial control, modify dry/wet mix
-6. **Live delay playback** - Change to live delay to output a live spatial delay based on same configurations
+6. **Configure output** - Choose speaker configuration (binaural/4-speaker/8-speaker)
+7. **Live delay playback** - Change to live delay to output a live spatial delay based on same configurations
 
 ## Documentation
 
@@ -122,7 +125,8 @@ audio-spacer/
 
 **Random mode:** [Default] Leave LCD blank for automatic random positioning  
 **Manual mode:** Draw in LCD display to control spatial location. The square represents a Left-Right-Front-Back matrix.  
-**Choose output method:** Binaural for headphones, 4 speakers or 8 speakers [TODO: Add functionality]
+**Choose output method:** Binaural for headphones, 4 speakers or 8 speakers  
+**Optional reverb:** Recommended for binaural or dry setting   
 
 ### Pitch Shifting
 <p align="center">
@@ -131,7 +135,7 @@ audio-spacer/
 
 **Enable pitch shifting:** When enabled, random events will be chosen to be shifted  
 **Manual shift:** Set octave, semitones, and cents precisely  
-**LFO:** Enable smooth modulation of pitch, will oscillate ±35 cents at 0.5Hz  
+**LFO:** Enable smooth modulation of pitch, will oscillate ±35 cents at 0.5Hz
 **Random Spectra:** Map pitch shift to overtone series, will override the manual shift and choose a random harmonic between the 1st and 30th
 
 ## Troubleshooting

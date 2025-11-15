@@ -2,7 +2,7 @@
 	"name" : "audio-spacer",
 	"version" : 1,
 	"creationdate" : 3838122424,
-	"modificationdate" : 3845618404,
+	"modificationdate" : 3845912639,
 	"viewrect" : [ 100.0, 100.0, 480.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -35,10 +35,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
-
-		}
 ,
-		"media" : 		{
+			"additional_reverb.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
