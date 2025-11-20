@@ -139,10 +139,10 @@ audio-spacer/
 **Random Spectra:** Map pitch shift to overtone series, will override the manual shift and choose a random harmonic between the 1st and 30th
 
 ## Troubleshooting
-See [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md).
+[TODO: add docs/TROUBLESHOOTING.md]
 
 ## Technical Details
-See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed technical documentation.
+[TODO: add docs/ARCHITECTURE.md]
 
 ## Contributing
 
