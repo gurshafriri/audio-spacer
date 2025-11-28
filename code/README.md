@@ -82,6 +82,6 @@ Some modifcations in the markers waveform JS UI were made to allow more manual c
 
 ## See Also
 
-- [Architecture Guide](../ARCHITECTURE.md)
+- [Architecture Guide](../docs/ARCHITECTURE.md)
 - [Patcher Reference](../patchers/README.md)
 - [Troubleshooting](../docs/TROUBLESHOOTING.md)

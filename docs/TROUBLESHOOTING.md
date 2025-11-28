@@ -99,6 +99,6 @@ Common issues and solutions for Audio-Spacer.
 
 ## See Also
 
-- [Architecture Guide](../ARCHITECTURE.md)
+- [Architecture Guide](ARCHITECTURE.md)
 - [Patcher Reference](../patchers/README.md)
 - [JavaScript API](../code/README.md)

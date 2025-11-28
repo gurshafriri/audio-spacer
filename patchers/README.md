@@ -101,3 +101,9 @@ All patchers communicate via Max's `send`/`receive` system. Key naming conventio
 4. set_picker_size.js updates UI
 5. Enable playback → Sequencer triggers plays
 6. Audio flows: plays → shift → spatial → output
+
+## See Also
+
+- [Architecture Guide](../docs/ARCHITECTURE.md)
+- [JavaScript API](../code/README.md)
+- [Troubleshooting](../docs/TROUBLESHOOTING.md)

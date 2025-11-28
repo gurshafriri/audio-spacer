@@ -48,7 +48,7 @@ Audio-Spacer transforms recorded audio into a spatially-distributed, rhythm-sync
 
 ## Documentation
 
-- [Architecture Guide](ARCHITECTURE.md) - Technical overview and system design
+- [Architecture Guide](docs/ARCHITECTURE.md) - Technical overview and system design
 - [Patcher Reference](patchers/README.md) - Detailed patcher documentation  
 - [JavaScript API](code/README.md) - Custom module reference
 - [Troubleshooting](docs/TROUBLESHOOTING.md) - Common issues and solutions
