@@ -8,6 +8,10 @@ A real-time spatial audio performance instrument for Max/MSP that records, slice
 
 Audio-Spacer transforms recorded audio into a spatially-distributed, rhythm-synchronized performance instrument. Record any sound, slice it automatically or manually, then play it back with configurable spatial output, pitch shifting, and tempo-locked sequencing.
 
+### Showcase
+- Listen and see suggested notation in [Inhibition/Exhibition I](https://gurshafriri.github.io/gurs-creative-field/#project/inhibition-exhibition-i)  
+- See [usage video excerpt](examples/excerpt.mov) 
+
 ## Features
 
 - **Record and slice audio** - Automatic onset detection or manual marking with visual waveform markers
@@ -139,10 +143,12 @@ audio-spacer/
 **Random Spectra:** Map pitch shift to overtone series, will override the manual shift and choose a random harmonic between the 1st and 30th
 
 ## Troubleshooting
-[TODO: add docs/TROUBLESHOOTING.md]
 
-## Technical Details
-[TODO: add docs/ARCHITECTURE.md]
+See [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) for detailed solutions to common issues.
+
+## Architecture
+
+See [ARCHITECTURE.md](ARCHITECTURE.md) for technical overview and system design details.
 
 ## Contributing
 
